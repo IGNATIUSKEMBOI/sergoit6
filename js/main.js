@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
      Paste the Web App URL you get after deploying
      google-apps-script/Code.gs (see README.md).
      ============================================ */
-  const SHEET_ENDPOINT = 'PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
+  const SHEET_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwi6mg8r7_QN9J0QiRf8p2fH_UmIimffOAkvUQpEebrYksBN-L_kls6NN731q53zKLpiw/exec';
 
   function sendToSheet(payload) {
     // Apps Script web apps don't reliably answer CORS preflight requests,
