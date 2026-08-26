@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Sergoit Primary School</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <span>📞 0700 000 000</span>
+      <span>✉️ info@sergoitprimary.sc.ke</span>
+    </div>
+    <div class="topbar-right">
+      <span>📍 Sergoit, Uasin Gishu County, Kenya</span>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="nav-brand">
+      <div class="nav-logo">S</div>
+      <div class="nav-name">Sergoit Primary School <span>Uasin Gishu County, Kenya</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="alumni.html">Alumni</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Photo Gallery</h1>
+    <p>A window into life at Sergoit Primary School — our events, facilities, and vibrant school community.</p>
+    <div class="breadcrumb"><a href="index.html">Home</a> › Gallery</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="gallery-filter">
+      <button class="filter-btn active" data-filter="all">All Photos</button>
+      <button class="filter-btn" data-filter="events">Events & Ceremonies</button>
+      <button class="filter-btn" data-filter="culture">Culture & Arts</button>
+      <button class="filter-btn" data-filter="facilities">Facilities</button>
+      <button class="filter-btn" data-filter="students">Students</button>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item wide" data-src="images/img1.jpg" data-cat="events">
+        <img src="images/img1.jpg" alt="Awards Ceremony">
+        <div class="overlay"><h4>Annual Prizegiving</h4><p>Celebrating student excellence</p></div>
+      </div>
+      <div class="gallery-item" data-src="images/img3.jpg" data-cat="students">
+        <img src="images/img3.jpg" alt="Students at Assembly">
+        <div class="overlay"><h4>School Assembly</h4><p>Engaged and enthusiastic learners</p></div>
+      </div>
+      <div class="gallery-item" data-src="images/img2.jpg" data-cat="culture">
+        <img src="images/img2.jpg" alt="Cultural Performance">
+        <div class="overlay"><h4>Cultural Day</h4><p>Traditional dance performance</p></div>
+      </div>
+      <div class="gallery-item" data-src="images/img4.jpg" data-cat="culture">
+        <img src="images/img4.jpg" alt="Choir Performance">
+        <div class="overlay"><h4>Choir & Drama</h4><p>Music festival performance</p></div>
+      </div>
+      <div class="gallery-item wide" data-src="images/img5.jpg" data-cat="facilities">
+        <img src="images/img5.jpg" alt="Aerial View of School">
+        <div class="overlay"><h4>School Campus</h4><p>Aerial view of our modern facilities</p></div>
+      </div>
+      <div class="gallery-item" data-src="images/img6.jpg" data-cat="facilities">
+        <img src="images/img6.jpg" alt="School Buildings">
+        <div class="overlay"><h4>New Classrooms</h4><p>Modern two-storey block</p></div>
+      </div>
+      <div class="gallery-item" data-src="images/img7.jpg" data-cat="events">
+        <img src="images/img7.jpg" alt="School Event Aerial">
+        <div class="overlay"><h4>Open Day</h4><p>Community comes together</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lb-close">✕</button>
+  <button class="lightbox-nav" id="lb-prev">‹</button>
+  <img id="lb-img" src="" alt="Gallery Image">
+  <button class="lightbox-nav" id="lb-next">›</button>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <div class="footer-logo-circle">S</div>
+          <div class="footer-logo-text">Sergoit Primary School</div>
+        </div>
+        <p>Nurturing excellence, character, and community in Uasin Gishu County.</p>
+        <div class="footer-social">
+          <a href="#" class="social-link">f</a>
+          <a href="#" class="social-link">t</a>
+          <a href="#" class="social-link">in</a>
+          <a href="#" class="social-link">yt</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="alumni.html">Alumni</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>School Life</h5>
+        <ul>
+          <li><a href="#">Sports & Games</a></li>
+          <li><a href="#">Music & Drama</a></li>
+          <li><a href="#">Cultural Activities</a></li>
+          <li><a href="#">School Clubs</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact Us</h5>
+        <div class="footer-contact-item"><span class="icon">📍</span><span>Sergoit, Uasin Gishu County, Kenya</span></div>
+        <div class="footer-contact-item"><span class="icon">📞</span><span>0700 000 000</span></div>
+        <div class="footer-contact-item"><span class="icon">✉️</span><span>info@sergoitprimary.sc.ke</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Sergoit Primary School. All rights reserved.</span>
+      <span>Built with ❤️ in <span>Kenya</span></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
